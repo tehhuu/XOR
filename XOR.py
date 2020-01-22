@@ -19,8 +19,7 @@ x = np.array([[0, 0], [0, 1], [1, 0], [1, 1]]) #入力
 t = np.array([[0], [1], [1], [0]]) #正解出力
 
 lr = 0.01 #学習率
-#epochs = 1000000 #エポック数
-epochs = 100 #エポック数
+epochs = 1000000 #エポック数
 
 for _ in range(epochs):
     sum_dldw2 =  0  
